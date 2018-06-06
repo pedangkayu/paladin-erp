@@ -1,0 +1,148 @@
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif,arial,tahoma;
+	font-size: 10pt;
+	line-height: 15pt;
+}
+
+.text-right{
+	text-align: right !important;
+}
+.text-left{
+	text-align: left !important;
+}
+.text-center{
+	text-align: center !important;
+}
+.bold{
+	font-weight: bold;
+}
+.alamat{
+	float: right;
+	line-height: 120%;
+ 
+}
+.semi-bold{
+	font-weight: bold;
+}
+address{
+	text-decoration: none;
+}
+header{
+	width: 70%;
+	margin: 0 auto;
+}
+footer{
+	margin: 30px auto;
+}
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+	border: solid 1px #929292;
+	padding: 8px;
+}
+
+.table{
+	width: 100%;
+	border:solid 1px #929292;
+	margin-bottom: 10px;
+	border-width: thin;
+}
+
+table.table-bordered tr td,
+table.table-bordered tr th{
+	border-right:solid 1px #929292;
+	border-bottom:solid 1px #929292;
+	padding: 3px;
+}
+table.table-bordered tr:last-child td{
+	border-bottom:none;
+	padding: 3px;
+}
+table.table-bordered tr td:last-child{
+	border-right:none;
+	padding: 3px;
+}
+
+table.ttd{
+	width: 95%;
+	margin: 0 auto;
+}
+table.ttd tr td {
+	text-align: center;
+}
+
+.printparent {
+	line-height: 100%;
+	margin-bottom: 10px;
+}
+
+
+
+
+						/* for printing style */
+						@media print{
+							header{
+								width: 100%;
+								margin: 0 auto;
+							}
+							.container{
+								width: 95%;
+								margin: 0 auto;
+							    border: solid 1px #929292;
+							}
+
+							footer.btn-print{
+								display: none;
+							}
+
+								.printparent {
+									font-size: 6pt;
+									line-height: 80%;
+									margin-bottom: 10px;
+								}
+
+								.table{
+									font-size: 7pt;
+									width: 100%;
+									border: solid 1px #929292;
+									margin-bottom: 10px;
+									border-width: thin;
+									 
+								}
+
+								table.table-bordered tr td,
+								table.table-bordered tr th {
+									border-right:solid 1px #929292;
+									border-bottom:solid 1px #929292;
+									padding: 3px;
+									line-height: 70%;
+									font-size: 7pt;
+								}
+
+								table.table-bordered tr:last-child td {
+									border-bottom:none;
+									padding: 3px;
+									font-size: 7pt;
+								}
+
+								table.table-bordered tr td:last-child {
+									border-right:none;
+									padding: 3px;
+									font-size: 7pt;
+								}
+
+								table.ttd{
+									width: 95%;
+									margin: 0 auto;
+									font-size: 8pt;
+								}
+
+								table.ttd tr td{
+									text-align: center;
+									font-size: 8pt;
+								}
+
+							  }
+

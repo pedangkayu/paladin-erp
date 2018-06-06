@@ -1,0 +1,161 @@
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif,arial,tahoma;
+	font-size: 3pt;
+	line-height: 4pt;
+}
+
+.text-right{
+	text-align: right !important;
+}
+.text-left{
+	text-align: left !important;
+}
+.text-center{
+	text-align: center !important;
+}
+.bold{
+	font-weight: bold;
+}
+.alamat{
+	float: right;
+	line-height: 160%;
+ 
+}
+.identitas{
+	float:left;
+	line-height: 50%;
+	margin-bottom: 10px;
+}
+.identitas1{
+	float:right;
+	line-height: 50%;
+	margin-bottom: 10px;
+}
+.semi-bold{
+	font-weight: bold;
+}
+address{
+	text-decoration: none;
+}
+header{
+	width: 12%;
+
+	margin: 0 auto;
+}
+footer{
+	margin: 30px auto;
+}
+
+.container{
+	width: 13%;
+	margin: 0 auto;
+	border: solid 1px #929292;
+	padding: 2px;
+}
+
+.table{
+	width: 90%;
+	border:solid 1px #929292;
+	margin-bottom: 10px;
+	border-width: thin;
+}
+
+table.table-bordered tr td,
+table.table-bordered tr th{
+	border-right:solid 1px #929292;
+	border-bottom:solid 1px #929292;
+	padding: 3px;
+}
+table.table-bordered tr:last-child td{
+	border-bottom:none;
+	padding: 3px;
+}
+table.table-bordered tr td:last-child{
+	border-right:none;
+	padding: 3px;
+}
+
+table.ttd{
+	width: 95%;
+	margin: 0 auto;
+}
+table.ttd tr td {
+	text-align: center;
+}
+
+.printparent {
+	line-height: 23%;
+	margin-bottom: 10px;
+
+
+}
+
+
+
+
+						/* for printing style */
+						@media print{
+							header{
+								width: 23%;
+								margin: 0 auto;
+							}
+							.container{
+								width: 24%;
+								margin: 0 auto;
+							    border: solid 1px #929292;
+							}
+
+							footer.btn-print{
+								display: none;
+							}
+
+								.printparent {
+									font-size: 3pt;
+									line-height: 80%;
+									margin-bottom: 10px;
+								}
+
+								.table{
+									font-size: 3pt;
+									width: 100%;
+									border: solid 1px #929292;
+									margin-bottom: 10px;
+									border-width: thin;
+									 
+								}
+
+								table.table-bordered tr td,
+								table.table-bordered tr th {
+									border-right:solid 1px #929292;
+									border-bottom:solid 1px #929292;
+									padding: 3px;
+									line-height: 70%;
+									font-size: 3pt;
+								}
+
+								table.table-bordered tr:last-child td {
+									border-bottom:none;
+									padding: 3px;
+									font-size: 3pt;
+								}
+
+								table.table-bordered tr td:last-child {
+									border-right:none;
+									padding: 3px;
+									font-size: 3pt;
+								}
+
+								table.ttd{
+									width: 95%;
+									margin: 0 auto;
+									font-size: 3pt;
+								}
+
+								table.ttd tr td{
+									text-align: center;
+									font-size: 3pt;
+								}
+
+							  }
+

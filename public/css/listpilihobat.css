@@ -1,0 +1,39 @@
+<style type="text/css">
+div.one {
+    max-width: 700px;
+    height: auto;
+    border: 1px solid #000000;
+     margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+div.two {
+    max-width: 700px;
+    height: auto;
+    border: 1px solid #000000;
+     margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+	body {
+    background-color: #ffffff;
+
+}
+td.p {
+    background-color: #333366;
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+}
+    height: 200px;
+}
+b{
+	  color: #3300ff;
+}
+</style>
