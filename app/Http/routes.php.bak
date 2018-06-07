@@ -90,7 +90,7 @@ Route::group(['middleware' 	=> 'auth'], function () {
 		'Deposit'			=>'Deposit\DepositController',
 		'Pinjaman'			=>'Pinjaman\KaryawamapinjamController',
 		'rekapjasamedis'	=>'LaporanKeuangan\LaporanHonordokterController',
-		'penggajian'		=>'Penggajian\PenggajianController',
+		'penggajian'		=>'penggajian\PenggajianController',
 	]);
 });
 /* @end Hexters */
